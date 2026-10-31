@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Haworth Industrial Technologies | Precision CAD Engineering & SolidWorks Design</title>
+  <meta name="description" content="Southern California-based mechanical design & industrial engineering team. Specialists in SolidWorks 3D CAD modeling, rapid prototyping, DFM, and contract manufacturing solutions.">
+  <meta name="keywords" content="SolidWorks CAD design, mechanical engineering consultant, industrial design Southern California, 3D CAD modeling, DFM, prototype fabrication, Haworth Industrial Technologies">
+  <link rel="canonical" href="https://www.haworthindustrialtechnologies.com/">
+
+  <!-- OpenGraph / Social Media -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.haworthindustrialtechnologies.com/">
+  <meta property="og:title" content="Haworth Industrial Technologies | Precision CAD & Mechanical Engineering">
+  <meta property="og:description" content="Expert SolidWorks CAD design, mechanical prototyping, and industrial engineering consulting. Headquartered in Southern California.">
+  <meta property="og:image" content="https://www.haworthindustrialtechnologies.com/assets/images/logo.png">
+
+  <!-- Tailwind CSS & Inter Font -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              dark: '#070d1e',
+              card: '#0f172a',
+              cardBorder: '#1e293b',
+              accent: '#00f0ff',
+              blue: '#2563eb',
+              lightBlue: '#38bdf8'
+            }
+          },
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+            mono: ['JetBrains Mono', 'monospace']
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    body {
+      background-color: #070d1e;
+      color: #f1f5f9;
+      font-family: 'Inter', sans-serif;
+    }
+    .grid-bg {
+      background-image: radial-gradient(rgba(0, 240, 255, 0.08) 1px, transparent 1px);
+      background-size: 32px 32px;
+    }
+    .tech-border {
+      border: 1px solid rgba(56, 189, 248, 0.2);
+    }
+    .tech-border:hover {
+      border-color: rgba(0, 240, 255, 0.5);
+      box-shadow: 0 0 20px rgba(0, 240, 255, 0.15);
+    }
+    .glow-cyan {
+      text-shadow: 0 0 16px rgba(0, 240, 255, 0.4);
+    }
+  </style>
+
+  <!-- Generative Engine Optimization (GEO) & Schema.org JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "EngineeringService",
+        "@id": "https://www.haworthindustrialtechnologies.com/#organization",
+        "name": "Haworth Industrial Technologies",
+        "url": "https://www.haworthindustrialtechnologies.com",
+        "logo": "https://www.haworthindustrialtechnologies.com/assets/images/logo.png",
+        "image": "https://www.haworthindustrialtechnologies.com/assets/images/adobestock-39308475_orig.jpeg",
+        "description": "Haworth Industrial Technologies is an expert mechanical design and industrial engineering consulting firm based in Southern California, specializing in SolidWorks 3D CAD modeling, DFM, prototype fabrication, and vendor sourcing.",
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "United States"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "US"
+        },
+        "knowsAbout": [
+          "SolidWorks 3D CAD Modeling",
+          "Mechanical Design Engineering",
+          "Design for Manufacturability (DFM)",
+          "Rapid Prototyping and 3D Printing",
+          "Industrial Process Optimization",
+          "CNC Machining & Sheet Metal Tooling"
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.haworthindustrialtechnologies.com/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What CAD software does Haworth Industrial Technologies specialize in?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Haworth Industrial Technologies specializes in industry-standard SolidWorks for comprehensive 3D part and assembly modeling, detailed engineering drafting, GD&T, and prototyping."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What industries does Haworth Industrial Technologies serve?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "We serve medical device, automotive, heavy equipment, oil & gas, consumer electronics, agriculture, and chemical processing companies across Southern California and nationwide."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How does Haworth handle prototype development and manufacturing?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "We provide rapid in-house 3D printing for functional prototyping and leverage vetted local Southern California and international precision fabrication partners for CNC machining, sheet metal, and injection molding."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body class="bg-brand-dark text-slate-100 antialiased selection:bg-brand-accent selection:text-black">
+
+  <!-- Top Announcement Bar -->
+  <div class="bg-slate-900 border-b border-slate-800 text-xs py-2 px-4 text-center text-slate-400">
+    <span class="inline-flex items-center gap-2">
+      <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+      <span>Now Accepting New SolidWorks CAD Design & Engineering Projects</span>
+      <a href="#quote" class="text-brand-accent hover:underline font-semibold ml-2">Request Quote &rarr;</a>
+    </span>
+  </div>
+
+  <!-- Header / Navigation -->
+  <header class="sticky top-0 z-50 backdrop-blur-md bg-brand-dark/90 border-b border-slate-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+      <a href="#" class="flex items-center gap-3 group">
+        <img src="assets/images/logo.png" alt="Haworth Industrial Technologies" class="h-10 w-auto rounded bg-white/5 p-1 border border-slate-700">
+        <div>
+          <span class="text-lg font-bold tracking-tight text-white block group-hover:text-brand-accent transition-colors">HAWORTH</span>
+          <span class="text-[10px] tracking-widest text-slate-400 uppercase font-mono block -mt-1">Industrial Technologies</span>
+        </div>
+      </a>
+
+      <!-- Desktop Nav -->
+      <nav class="hidden md:flex items-center gap-8 text-sm font-medium text-slate-300">
+        <a href="#services" class="hover:text-brand-accent transition-colors">Services</a>
+        <a href="#case-studies" class="hover:text-brand-accent transition-colors">Case Studies</a>
+        <a href="#why-us" class="hover:text-brand-accent transition-colors">Capabilities</a>
+        <a href="#testimonial" class="hover:text-brand-accent transition-colors">Testimonial</a>
+        <a href="#faq" class="hover:text-brand-accent transition-colors">FAQ</a>
+      </nav>
+
+      <!-- Desktop CTA -->
+      <div class="hidden md:flex items-center gap-4">
+        <a href="#quote" class="bg-gradient-to-r from-brand-accent to-brand-blue text-slate-950 font-semibold px-5 py-2.5 rounded-lg text-sm hover:shadow-[0_0_20px_rgba(0,240,255,0.4)] transition-all transform hover:-translate-y-0.5">
+          Request CAD Quote
+        </a>
+      </div>
+
+      <!-- Mobile Menu Button -->
+      <button id="mobileMenuBtn" class="md:hidden text-slate-300 hover:text-white p-2">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+        </svg>
+      </button>
+    </div>
+
+    <!-- Mobile Nav Dropdown -->
+    <div id="mobileMenu" class="hidden md:hidden border-b border-slate-800 bg-slate-950 px-4 pt-3 pb-6 space-y-3">
+      <a href="#services" class="block text-slate-300 hover:text-brand-accent font-medium py-1">Services</a>
+      <a href="#case-studies" class="block text-slate-300 hover:text-brand-accent font-medium py-1">Case Studies</a>
+      <a href="#why-us" class="block text-slate-300 hover:text-brand-accent font-medium py-1">Capabilities</a>
+      <a href="#testimonial" class="block text-slate-300 hover:text-brand-accent font-medium py-1">Testimonial</a>
+      <a href="#faq" class="block text-slate-300 hover:text-brand-accent font-medium py-1">FAQ</a>
+      <a href="#quote" class="block text-center bg-brand-accent text-slate-950 font-bold py-2.5 rounded-lg mt-3">Request CAD Quote</a>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="relative pt-20 pb-28 overflow-hidden grid-bg">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+        
+        <div class="lg:col-span-7 space-y-6">
+          <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-slate-800/80 border border-slate-700 text-xs font-mono text-brand-accent">
+            <span class="w-1.5 h-1.5 rounded-full bg-brand-accent"></span>
+            SOUTHERN CALIFORNIA ENGINEERING & DESIGN
+          </div>
+
+          <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-tight">
+            Precision Mechanical Design & <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-accent via-sky-400 to-brand-blue">SolidWorks CAD</span>
+          </h1>
+
+          <p class="text-lg text-slate-300 leading-relaxed max-w-2xl">
+            We partner with small-to-midsize hardware innovators to transform concepts into production-ready CAD models, functional prototypes, and affordable manufacturing pipelines.
+          </p>
+
+          <div class="flex flex-col sm:flex-row gap-4 pt-4">
+            <a href="#quote" class="inline-flex justify-center items-center gap-2 bg-gradient-to-r from-brand-accent to-brand-blue text-slate-950 font-bold px-7 py-3.5 rounded-xl text-base hover:shadow-[0_0_25px_rgba(0,240,255,0.4)] transition-all">
+              <span>Submit Project for RFQ</span>
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+            </a>
+            <a href="#case-studies" class="inline-flex justify-center items-center gap-2 bg-slate-900 border border-slate-700 text-slate-200 font-semibold px-6 py-3.5 rounded-xl text-base hover:border-slate-500 hover:text-white transition-all">
+              <span>View Case Studies</span>
+            </a>
+          </div>
+
+          <!-- Trust Badges -->
+          <div class="pt-8 border-t border-slate-800/80 grid grid-cols-2 sm:grid-cols-4 gap-4 text-xs font-mono text-slate-400">
+            <div>
+              <span class="block text-brand-accent font-bold text-lg">15+ Yrs</span>
+              <span>Engineering Mastery</span>
+            </div>
+            <div>
+              <span class="block text-brand-accent font-bold text-lg">SolidWorks</span>
+              <span>Certified 3D CAD</span>
+            </div>
+            <div>
+              <span class="block text-brand-accent font-bold text-lg">100% Rapid</span>
+              <span>Prototyping & DFM</span>
+            </div>
+            <div>
+              <span class="block text-brand-accent font-bold text-lg">Global</span>
+              <span>Vendor Network</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Visual Card -->
+        <div class="lg:col-span-5 relative">
+          <div class="relative rounded-2xl overflow-hidden border border-slate-700 bg-slate-900/60 shadow-2xl backdrop-blur-sm p-4">
+            <img src="assets/images/adobestock-39308475_orig.jpeg" alt="Precision Mechanical CAD Drafting" class="rounded-xl w-full h-80 object-cover border border-slate-800">
+            <div class="mt-4 p-3 bg-slate-950/80 rounded-lg border border-slate-800 flex items-center justify-between text-xs">
+              <div class="flex items-center gap-3">
+                <span class="w-3 h-3 rounded-full bg-emerald-500 animate-ping"></span>
+                <span class="font-mono text-slate-300">DFM Optimization Engine</span>
+              </div>
+              <span class="font-mono text-brand-accent font-bold">READY TO BUILD</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Industries Served -->
+  <section class="py-12 border-y border-slate-800/60 bg-slate-950/40">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <p class="text-center text-xs font-mono text-slate-400 uppercase tracking-widest mb-6">Trusted Across Demanding Technical Sectors</p>
+      <div class="flex flex-wrap items-center justify-center gap-6 sm:gap-12 text-sm font-semibold text-slate-400">
+        <span class="hover:text-brand-accent transition-colors">&bull; Medical Device</span>
+        <span class="hover:text-brand-accent transition-colors">&bull; Automotive & Off-Road</span>
+        <span class="hover:text-brand-accent transition-colors">&bull; Heavy Equipment</span>
+        <span class="hover:text-brand-accent transition-colors">&bull; Oil & Gas</span>
+        <span class="hover:text-brand-accent transition-colors">&bull; Chemical Extraction</span>
+        <span class="hover:text-brand-accent transition-colors">&bull; Consumer Products</span>
+        <span class="hover:text-brand-accent transition-colors">&bull; Industrial Automation</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Core Services Section -->
+  <section id="services" class="py-24 relative">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <span class="text-xs font-mono text-brand-accent tracking-widest uppercase">End-to-End Capabilities</span>
+        <h2 class="text-3xl sm:text-4xl font-bold text-white mt-2">Comprehensive Engineering Solutions</h2>
+        <p class="text-slate-400 mt-4 text-base">From resolving targeted engineering bottlenecks to deploying full contract product development teams, we deliver tailored technical execution.</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        
+        <!-- Card 1 -->
+        <div class="bg-brand-card p-8 rounded-2xl border border-slate-800 tech-border transition-all flex flex-col justify-between">
+          <div>
+            <div class="w-12 h-12 rounded-xl bg-sky-500/10 border border-sky-500/20 text-brand-accent flex items-center justify-center font-bold text-lg mb-6">01</div>
+            <h3 class="text-xl font-bold text-white mb-3">Mechanical CAD Design</h3>
+            <p class="text-slate-400 text-sm leading-relaxed mb-6">
+              Complete mechanical modeling using industry-leading SolidWorks. We generate detailed 3D parts, complex multi-component assemblies, parametric designs, and full ANSI/ISO drafting packages with GD&T.
+            </p>
+          </div>
+          <ul class="text-xs font-mono text-slate-400 space-y-2 border-t border-slate-800/80 pt-4">
+            <li class="flex items-center gap-2"><span class="text-brand-accent">&check;</span> 3D SolidWorks Assemblies</li>
+            <li class="flex items-center gap-2"><span class="text-brand-accent">&check;</span> Production Manufacturing Prints</li>
+            <li class="flex items-center gap-2"><span class="text-brand-accent">&check;</span> Tolerance Analysis & GD&T</li>
+          </ul>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="bg-brand-card p-8 rounded-2xl border border-slate-800 tech-border transition-all flex flex-col justify-between">
+          <div>
+            <div class="w-12 h-12 rounded-xl bg-sky-500/10 border border-sky-500/20 text-brand-accent flex items-center justify-center font-bold text-lg mb-6">02</div>
+            <h3 class="text-xl font-bold text-white mb-3">Industrial Engineering & DFM</h3>
+            <p class="text-slate-400 text-sm leading-relaxed mb-6">
+              Eliminate costly manufacturing pitfalls before cutting metal. We optimize designs for manufacturability, structure assembly sequencing, and develop robust process control protocols.
+            </p>
+          </div>
+          <ul class="text-xs font-mono text-slate-400 space-y-2 border-t border-slate-800/80 pt-4">
+            <li class="flex items-center gap-2"><span class="text-brand-accent">&check;</span> Design for Manufacturability (DFM)</li>
+            <li class="flex items-center gap-2"><span class="text-brand-accent">&check;</span> Process & Productivity Optimization</li>
+            <li class="flex items-center gap-2"><span class="text-brand-accent">&check;</span> Tooling & Fixture Engineering</li>
+          </ul>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="bg-brand-card p-8 rounded-2xl border border-slate-800 tech-border transition-all flex flex-col justify-between">
+          <div>
+            <div class="w-12 h-12 rounded-xl bg-sky-500/10 border border-sky-500/20 text-brand-accent flex items-center justify-center font-bold text-lg mb-6">03</div>
+            <h3 class="text-xl font-bold text-white mb-3">Rapid Prototyping & Testing</h3>
+            <p class="text-slate-400 text-sm leading-relaxed mb-6">
+              Rapidly validate fit, form, and ergonomics. We produce high-precision 3D printed physical prototypes to test mechanics before locking in expensive production tooling.
+            </p>
+          </div>
+          <ul class="text-xs font-mono text-slate-400 space-y-2 border-t border-slate-800/80 pt-4">
+            <li class="flex items-center gap-2"><span class="text-brand-accent">&check;</span> Functional 3D Printed Prototypes</li>
+            <li class="flex items-center gap-2"><span class="text-brand-accent">&check;</span> Fit & Interference Checking</li>
+            <li class="flex items-center gap-2"><span class="text-brand-accent">&check;</span> Design Validation & Testing</li>
+          </ul>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="bg-brand-card p-8 rounded-2xl border border-slate-800 tech-border transition-all flex flex-col justify-between">
+          <div>
+            <div class="w-12 h-12 rounded-xl bg-sky-500/10 border border-sky-500/20 text-brand-accent flex items-center justify-center font-bold text-lg mb-6">04</div>
+            <h3 class="text-xl font-bold text-white mb-3">Supplier Sourcing & Fabrication</h3>
+            <p class="text-slate-400 text-sm leading-relaxed mb-6">
+              Leverage decades of established vendor relationships across Southern California and globally. We match your part specifications with the right CNC, sheet metal, and casting partners.
+            </p>
+          </div>
+          <ul class="text-xs font-mono text-slate-400 space-y-2 border-t border-slate-800/80 pt-4">
+            <li class="flex items-center gap-2"><span class="text-brand-accent">&check;</span> CNC Machining (3/4/5-Axis)</li>
+            <li class="flex items-center gap-2"><span class="text-brand-accent">&check;</span> Precision Sheet Metal & Stamping</li>
+            <li class="flex items-center gap-2"><span class="text-brand-accent">&check;</span> Vendor Vetting & Cost Reduction</li>
+          </ul>
+        </div>
+
+        <!-- Card 5 -->
+        <div class="bg-brand-card p-8 rounded-2xl border border-slate-800 tech-border transition-all flex flex-col justify-between">
+          <div>
+            <div class="w-12 h-12 rounded-xl bg-sky-500/10 border border-sky-500/20 text-brand-accent flex items-center justify-center font-bold text-lg mb-6">05</div>
+            <h3 class="text-xl font-bold text-white mb-3">Flexible Contracting Model</h3>
+            <p class="text-slate-400 text-sm leading-relaxed mb-6">
+              Avoid high overhead. Our on-demand engineering staffing model adapts to your workload—whether you need 20 hours of CAD drafting or a dedicated engineering lead for a 6-month product rollout.
+            </p>
+          </div>
+          <ul class="text-xs font-mono text-slate-400 space-y-2 border-t border-slate-800/80 pt-4">
+            <li class="flex items-center gap-2"><span class="text-brand-accent">&check;</span> Zero Long-Term Employment Burden</li>
+            <li class="flex items-center gap-2"><span class="text-brand-accent">&check;</span> Flexible Hourly or Milestone Contracts</li>
+            <li class="flex items-center gap-2"><span class="text-brand-accent">&check;</span> Rapid Onboarding & Immediate Output</li>
+          </ul>
+        </div>
+
+        <!-- Card 6 -->
+        <div class="bg-brand-card p-8 rounded-2xl border border-slate-800 tech-border transition-all flex flex-col justify-between">
+          <div>
+            <div class="w-12 h-12 rounded-xl bg-sky-500/10 border border-sky-500/20 text-brand-accent flex items-center justify-center font-bold text-lg mb-6">06</div>
+            <h3 class="text-xl font-bold text-white mb-3">Reverse Engineering & Redesign</h3>
+            <p class="text-slate-400 text-sm leading-relaxed mb-6">
+              Modernize legacy hardware. We measure, scan, and re-create native SolidWorks CAD models from physical components, updating obsolete designs for modern manufacturing techniques.
+            </p>
+          </div>
+          <ul class="text-xs font-mono text-slate-400 space-y-2 border-t border-slate-800/80 pt-4">
+            <li class="flex items-center gap-2"><span class="text-brand-accent">&check;</span> 3D CAD Reconstruction from Physical Parts</li>
+            <li class="flex items-center gap-2"><span class="text-brand-accent">&check;</span> Weight & Cost Reduction Re-engineering</li>
+            <li class="flex items-center gap-2"><span class="text-brand-accent">&check;</span> Complete CAD Data Sovereignty</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Case Studies & Project Gallery -->
+  <section id="case-studies" class="py-24 bg-slate-950 border-t border-slate-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="flex flex-col md:flex-row md:items-end justify-between mb-16">
+        <div>
+          <span class="text-xs font-mono text-brand-accent tracking-widest uppercase">Proven Track Record</span>
+          <h2 class="text-3xl sm:text-4xl font-bold text-white mt-2">Selected Project Gallery</h2>
+          <p class="text-slate-400 mt-2 max-w-xl">A cross-section of hardware systems, automotive accessories, and precision devices designed and brought to production by Haworth Industrial Technologies.</p>
+        </div>
+        <div class="mt-6 md:mt-0">
+          <a href="#quote" class="text-sm font-semibold text-brand-accent hover:underline flex items-center gap-2">
+            Have a similar project? Request a review &rarr;
+          </a>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        
+        <!-- Case Study 1 -->
+        <div class="bg-brand-card rounded-2xl border border-slate-800 overflow-hidden hover:border-slate-700 transition-all flex flex-col">
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <span class="text-[11px] font-mono text-brand-accent uppercase tracking-wider block mb-2">Instrumentation & Sensors</span>
+              <h3 class="text-xl font-bold text-white mb-2">Southland Sensing Ltd.</h3>
+              <p class="text-slate-400 text-sm mb-4">
+                Long-term CAD design consulting for analytical sensor instrumentation, custom sampling systems, packaging enclosures, and electronic mounting architectures.
+              </p>
+            </div>
+            <div class="pt-4 border-t border-slate-800/80 flex items-center justify-between text-xs text-slate-400 font-mono">
+              <span>Scope: CAD Consulting</span>
+              <span class="text-emerald-400">Multi-Year Partner</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Case Study 2 -->
+        <div class="bg-brand-card rounded-2xl border border-slate-800 overflow-hidden hover:border-slate-700 transition-all flex flex-col">
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <span class="text-[11px] font-mono text-brand-accent uppercase tracking-wider block mb-2">Precision Machining</span>
+              <h3 class="text-xl font-bold text-white mb-2">Hyon USA &mdash; CUETÉ System</h3>
+              <p class="text-slate-400 text-sm mb-4">
+                Took conceptual sketches to high-precision reality. Engineered 25mm 303 Stainless Steel rebuildable hardware with custom 2-post grub arrangements, 3D printed functional prototypes, and DFM sourcing recommendations.
+              </p>
+            </div>
+            <div class="pt-4 border-t border-slate-800/80 flex items-center justify-between text-xs text-slate-400 font-mono">
+              <span>Scope: 303 SS / Prototyping</span>
+              <span class="text-emerald-400">Production Sourced</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Case Study 3 -->
+        <div class="bg-brand-card rounded-2xl border border-slate-800 overflow-hidden hover:border-slate-700 transition-all flex flex-col">
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <span class="text-[11px] font-mono text-brand-accent uppercase tracking-wider block mb-2">Automotive Hardware</span>
+              <h3 class="text-xl font-bold text-white mb-2">500 Stones &mdash; Bare Back Rack</h3>
+              <p class="text-slate-400 text-sm mb-4">
+                Designed a 58” modular steel crossbar cargo system for 2007–2017 Jeep Wranglers. Reduced assembly down to 8 parts with a 3-minute toolless installation, validated prototypes, and coordinated local Southern California fabrication.
+              </p>
+            </div>
+            <div class="pt-4 border-t border-slate-800/80 flex items-center justify-between text-xs text-slate-400 font-mono">
+              <span>Scope: Structural Steel / DFM</span>
+              <span class="text-emerald-400">Manufactured</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Case Study 4 -->
+        <div class="bg-brand-card rounded-2xl border border-slate-800 overflow-hidden hover:border-slate-700 transition-all flex flex-col">
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <span class="text-[11px] font-mono text-brand-accent uppercase tracking-wider block mb-2">Motorsports & Off-Road</span>
+              <h3 class="text-xl font-bold text-white mb-2">Trinity Racing / Streamline Brakes</h3>
+              <p class="text-slate-400 text-sm mb-4">
+                Engineered high-durability off-road vehicle equipment, custom antenna mounts, and precision radio clamps distributed through leading motorsports brands including PCI Radios and SDR Motorsports.
+              </p>
+            </div>
+            <div class="pt-4 border-t border-slate-800/80 flex items-center justify-between text-xs text-slate-400 font-mono">
+              <span>Scope: UTV/ATV Components</span>
+              <span class="text-emerald-400">Fleet Deployed</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Case Study 5 -->
+        <div class="bg-brand-card rounded-2xl border border-slate-800 overflow-hidden hover:border-slate-700 transition-all flex flex-col">
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <span class="text-[11px] font-mono text-brand-accent uppercase tracking-wider block mb-2">Chemical Processing</span>
+              <h3 class="text-xl font-bold text-white mb-2">Botanical Extraction Systems</h3>
+              <p class="text-slate-400 text-sm mb-4">
+                Engineered specialized harvesting and chemical extraction equipment to help commercial processing operators maximize throughput, reduce fluid handling losses, and maintain sanitary standards.
+              </p>
+            </div>
+            <div class="pt-4 border-t border-slate-800/80 flex items-center justify-between text-xs text-slate-400 font-mono">
+              <span>Scope: Extraction Equipment</span>
+              <span class="text-emerald-400">Sanitary Design</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Case Study 6 -->
+        <div class="bg-brand-card rounded-2xl border border-slate-800 overflow-hidden hover:border-slate-700 transition-all flex flex-col">
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <span class="text-[11px] font-mono text-brand-accent uppercase tracking-wider block mb-2">Consumer Hardware</span>
+              <h3 class="text-xl font-bold text-white mb-2">Coolit Baskit</h3>
+              <p class="text-slate-400 text-sm mb-4">
+                Assisted an early-stage inventor by translating rough napkin concept drawings into parametric 3D SolidWorks assemblies, functional 3D prints, complete manufacturing drawings, and affordable mass tooling partners.
+              </p>
+            </div>
+            <div class="pt-4 border-t border-slate-800/80 flex items-center justify-between text-xs text-slate-400 font-mono">
+              <span>Scope: Concept-to-Production</span>
+              <span class="text-emerald-400">Full Lifecycle</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Verified Testimonial Callout -->
+  <section id="testimonial" class="py-20 relative overflow-hidden bg-brand-dark border-t border-slate-800">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <div class="bg-slate-900/90 border border-brand-accent/30 rounded-3xl p-8 sm:p-12 shadow-[0_0_50px_rgba(0,240,255,0.08)] relative">
+        <div class="text-brand-accent font-serif text-6xl leading-none absolute -top-4 left-8 select-none">&ldquo;</div>
+        
+        <blockquote class="text-lg sm:text-xl text-slate-200 font-medium leading-relaxed mt-4">
+          Haworth Industrial Technologies has provided our company their highly professional CAD design consulting services for many years. Their service is not only cost effective, but it is provided with flexible scheduling and a high degree of accessibility. Haworth Industrial Technologies has proven to dramatically reduce the mechanical design process due to the high level of expertise and efficiency that they bring to the table.
+        </blockquote>
+
+        <div class="mt-8 pt-6 border-t border-slate-800 flex items-center justify-between flex-wrap gap-4">
+          <div>
+            <div class="font-bold text-white text-base">Ben Barker</div>
+            <div class="text-sm text-slate-400">President, Southland Sensing Ltd.</div>
+          </div>
+          <div class="px-3 py-1 rounded bg-brand-accent/10 border border-brand-accent/20 text-xs font-mono text-brand-accent">
+            Verified Long-Term Client
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive CAD RFQ / Quote Form -->
+  <section id="quote" class="py-24 bg-slate-950 border-t border-slate-800">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-2xl mx-auto mb-12">
+        <span class="text-xs font-mono text-brand-accent tracking-widest uppercase">Fast Turnaround RFQ</span>
+        <h2 class="text-3xl sm:text-4xl font-bold text-white mt-2">Request a CAD Design Quote</h2>
+        <p class="text-slate-400 mt-3 text-sm">Tell us about your project requirements. Submit sketches, existing CAD files, or technical specs for a confidential engineering review.</p>
+      </div>
+
+      <div class="bg-brand-card border border-slate-800 rounded-3xl p-8 sm:p-12 shadow-2xl">
+        <form id="quoteForm" class="space-y-6">
+          
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+            <div>
+              <label class="block text-xs font-mono text-slate-300 uppercase mb-2">First Name *</label>
+              <input type="text" required placeholder="John" class="w-full bg-slate-900 border border-slate-700 rounded-xl px-4 py-3 text-sm text-white focus:outline-none focus:border-brand-accent focus:ring-1 focus:ring-brand-accent">
+            </div>
+            <div>
+              <label class="block text-xs font-mono text-slate-300 uppercase mb-2">Last Name *</label>
+              <input type="text" required placeholder="Doe" class="w-full bg-slate-900 border border-slate-700 rounded-xl px-4 py-3 text-sm text-white focus:outline-none focus:border-brand-accent focus:ring-1 focus:ring-brand-accent">
+            </div>
+          </div>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+            <div>
+              <label class="block text-xs font-mono text-slate-300 uppercase mb-2">Work Email *</label>
+              <input type="email" required placeholder="john@company.com" class="w-full bg-slate-900 border border-slate-700 rounded-xl px-4 py-3 text-sm text-white focus:outline-none focus:border-brand-accent focus:ring-1 focus:ring-brand-accent">
+            </div>
+            <div>
+              <label class="block text-xs font-mono text-slate-300 uppercase mb-2">Phone Number</label>
+              <input type="tel" placeholder="(555) 000-0000" class="w-full bg-slate-900 border border-slate-700 rounded-xl px-4 py-3 text-sm text-white focus:outline-none focus:border-brand-accent focus:ring-1 focus:ring-brand-accent">
+            </div>
+          </div>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+            <div>
+              <label class="block text-xs font-mono text-slate-300 uppercase mb-2">Company Name</label>
+              <input type="text" placeholder="Acme Engineering" class="w-full bg-slate-900 border border-slate-700 rounded-xl px-4 py-3 text-sm text-white focus:outline-none focus:border-brand-accent focus:ring-1 focus:ring-brand-accent">
+            </div>
+            <div>
+              <label class="block text-xs font-mono text-slate-300 uppercase mb-2">Primary Service Needed *</label>
+              <select required class="w-full bg-slate-900 border border-slate-700 rounded-xl px-4 py-3 text-sm text-white focus:outline-none focus:border-brand-accent focus:ring-1 focus:ring-brand-accent">
+                <option value="" disabled selected>Select service discipline...</option>
+                <option value="solidworks">SolidWorks 3D CAD Modeling</option>
+                <option value="dfm">Design for Manufacturability (DFM)</option>
+                <option value="prototyping">Rapid Prototyping & 3D Printing</option>
+                <option value="sourcing">Fabrication Sourcing (CNC / Sheet Metal)</option>
+                <option value="contracting">On-Demand Engineering Contracting</option>
+                <option value="other">Other / Multi-discipline Project</option>
+              </select>
+            </div>
+          </div>
+
+          <div>
+            <label class="block text-xs font-mono text-slate-300 uppercase mb-2">Project Scope & Technical Details *</label>
+            <textarea rows="4" required placeholder="Describe your product concept, material requirements, production timelines, or mechanical challenges..." class="w-full bg-slate-900 border border-slate-700 rounded-xl p-4 text-sm text-white focus:outline-none focus:border-brand-accent focus:ring-1 focus:ring-brand-accent"></textarea>
+          </div>
+
+          <!-- File Upload UI -->
+          <div>
+            <label class="block text-xs font-mono text-slate-300 uppercase mb-2">Attach Technical Files or Drawings (Optional)</label>
+            <div class="border-2 border-dashed border-slate-700 rounded-2xl p-6 text-center hover:border-brand-accent transition-colors bg-slate-900/40 cursor-pointer">
+              <svg class="mx-auto h-10 w-10 text-slate-500 mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12"></path>
+              </svg>
+              <p class="text-sm text-slate-300 font-medium">Click to upload CAD files, drawings, or sketches</p>
+              <p class="text-xs text-slate-500 font-mono mt-1">Accepted: .SLDPRT, .SLDASM, .STEP, .IGES, .PDF, .DWG (Max 50MB)</p>
+              <input type="file" multiple class="hidden" id="cadFileInput">
+            </div>
+          </div>
+
+          <div class="pt-4 flex items-center justify-between flex-wrap gap-4">
+            <div class="text-xs text-slate-400 flex items-center gap-2">
+              <svg class="w-4 h-4 text-emerald-400" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 1.944A11.954 11.954 0 012.166 5C2.056 5.649 2 6.319 2 7c0 5.225 3.34 9.67 8 11.317C14.66 16.67 18 12.225 18 7c0-.682-.057-1.35-.166-2.001A11.954 11.954 0 0110 1.944zM11 14a1 1 0 11-2 0 1 1 0 012 0zm0-7a1 1 0 10-2 0v3a1 1 0 102 0V7z" clip-rule="evenodd"></path></svg>
+              <span>Strict Non-Disclosure (NDA) Protected &bull; Direct to Chris Haworth</span>
+            </div>
+            <button type="submit" class="bg-gradient-to-r from-brand-accent to-brand-blue text-slate-950 font-bold px-8 py-3.5 rounded-xl text-sm hover:shadow-[0_0_25px_rgba(0,240,255,0.4)] transition-all">
+              Send Project RFQ
+            </button>
+          </div>
+
+          <div id="formSuccess" class="hidden p-4 rounded-xl bg-emerald-500/10 border border-emerald-500/30 text-emerald-300 text-sm font-medium text-center">
+            Thank you! Your quote request has been transmitted. We will review your CAD specs and reply within 1 business day.
+          </div>
+        </form>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FAQ Section (Generative Engine Optimization) -->
+  <section id="faq" class="py-20 bg-brand-dark border-t border-slate-800">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-12">
+        <span class="text-xs font-mono text-brand-accent tracking-widest uppercase">Direct Answers</span>
+        <h2 class="text-3xl font-bold text-white mt-2">Frequently Asked Questions</h2>
+      </div>
+
+      <div class="space-y-4">
+        
+        <details class="bg-brand-card border border-slate-800 rounded-2xl p-6 group cursor-pointer" open>
+          <summary class="font-bold text-base text-white flex justify-between items-center select-none">
+            What CAD software does Haworth Industrial Technologies use?
+            <span class="text-brand-accent group-open:rotate-180 transition-transform">&darr;</span>
+          </summary>
+          <p class="text-slate-400 text-sm mt-3 leading-relaxed">
+            We specialize in Dassault Systèmes SolidWorks for 3D parametric part design, complex assembly modeling, and engineering production drawings. We can also import and deliver neutral CAD formats including STEP, IGES, Parasolid (.x_t), and DXF/DWG.
+          </p>
+        </details>
+
+        <details class="bg-brand-card border border-slate-800 rounded-2xl p-6 group cursor-pointer">
+          <summary class="font-bold text-base text-white flex justify-between items-center select-none">
+            Can Haworth help with prototyping and physical manufacturing?
+            <span class="text-brand-accent group-open:rotate-180 transition-transform">&darr;</span>
+          </summary>
+          <p class="text-slate-400 text-sm mt-3 leading-relaxed">
+            Yes. Beyond CAD design, we produce 3D printed prototypes to validate mechanics and interface directly with vetted local Southern California machine shops and overseas partners for CNC machining, sheet metal fabrication, and production injection molding.
+          </p>
+        </details>
+
+        <details class="bg-brand-card border border-slate-800 rounded-2xl p-6 group cursor-pointer">
+          <summary class="font-bold text-base text-white flex justify-between items-center select-none">
+            What is your contracting structure?
+            <span class="text-brand-accent group-open:rotate-180 transition-transform">&darr;</span>
+          </summary>
+          <p class="text-slate-400 text-sm mt-3 leading-relaxed">
+            We operate on a flexible contracting model. Depending on your needs, we support fixed-price milestone projects, hourly engineering design consulting, or embedded contract engineering support for fast-moving product development sprints.
+          </p>
+        </details>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-slate-950 border-t border-slate-800/80 py-12 text-slate-400 text-xs">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col md:flex-row items-center justify-between gap-6">
+        
+        <div class="flex items-center gap-3">
+          <img src="assets/images/logo.png" alt="Haworth Industrial Technologies" class="h-8 w-auto rounded bg-white/5 p-1 border border-slate-800">
+          <div>
+            <div class="font-bold text-white text-sm">HAWORTH INDUSTRIAL TECHNOLOGIES</div>
+            <div class="text-[11px] text-slate-500 font-mono">Precision Mechanical Engineering & Manufacturing Solutions</div>
+          </div>
+        </div>
+
+        <div class="flex items-center gap-6 font-medium">
+          <a href="#services" class="hover:text-white transition-colors">Services</a>
+          <a href="#case-studies" class="hover:text-white transition-colors">Case Studies</a>
+          <a href="#quote" class="hover:text-white transition-colors">Request Quote</a>
+          <a href="mailto:info@haworthindustrialtechnologies.com" class="text-brand-accent hover:underline">info@haworthindustrialtechnologies.com</a>
+        </div>
+
+      </div>
+
+      <div class="mt-8 pt-8 border-t border-slate-900 flex flex-col sm:flex-row items-center justify-between gap-4 font-mono text-[11px] text-slate-500">
+        <div>&copy; 2026 Haworth Industrial Technologies. All rights reserved. Southern California, USA.</div>
+        <div class="flex items-center gap-2">
+          <span class="w-2 h-2 rounded-full bg-emerald-400"></span>
+          <span>Hosted on Cloudflare Pages (Edge Accelerated)</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Mobile navigation toggle
+    const mobileBtn = document.getElementById('mobileMenuBtn');
+    const mobileMenu = document.getElementById('mobileMenu');
+    mobileBtn.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+
+    // Handle quote submission preview
+    document.getElementById('quoteForm').addEventListener('submit', function(e) {
+      e.preventDefault();
+      document.getElementById('formSuccess').classList.remove('hidden');
+      this.reset();
+    });
+  </script>
+</body>
+</html>

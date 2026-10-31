@@ -1,0 +1,6 @@
+.env*
+.env.local
+.worktrees/
+node_modules/
+dist/
+.DS_Store
