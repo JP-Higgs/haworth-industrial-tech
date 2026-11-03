@@ -1,0 +1,17 @@
+{
+  "name": "haworth-industrial-tech",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Haworth Industrial Technologies - Precision CAD Engineering & SolidWorks Design",
+  "scripts": {
+    "build": "node build.js"
+  },
+  "keywords": [
+    "cad",
+    "solidworks",
+    "mechanical-engineering",
+    "industrial-design"
+  ],
+  "author": "Haworth Industrial Technologies",
+  "license": "UNLICENSED"
+}
